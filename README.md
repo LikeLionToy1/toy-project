@@ -11,11 +11,11 @@
   </tr>
   <tr>
     <td align="center">김혜원 (Design)</td>
-    <td align="center">김민혁 (Front-End)</td>
-    <td align="center">남윤진 (Front-End)</td>
-    <td align="center">윤지수 (Front-End)</td>
-    <td align="center">황병주 (Front-End)</td>
-    <td align="center">전고은 (Back-End)</td>
+    <td align="center">김민혁 (FE)</td>
+    <td align="center">남윤진 (FE)</td>
+    <td align="center">윤지수 (FE)</td>
+    <td align="center">황병주 (FE)</td>
+    <td align="center">전고은 (BE)</td>
   </tr>
 </table>
 
