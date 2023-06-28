@@ -2,7 +2,7 @@
 
 <table align="left">
   <tr>
-    <td align="center"><a href="https://github.com/hynnk0"><img src=https://avatars.githubusercontent.com/u/80658359?v=4 width=320/></td>
+    <td align="center"><a href="https://github.com/hynnk0"><img src=https://avatars.githubusercontent.com/u/80658359?v=4 width=300/></td>
     <td align="center"><a href="https://github.com/jaqwe2301"><img src=https://avatars.githubusercontent.com/u/42240254?v=4 width=420/></td>
     <td align="center"><a href="https://github.com/jinyunnam1943"><img src=https://avatars.githubusercontent.com/u/132261348?v=4/></td>
     <td align="center"><a href="https://github.com/Yoonjit"><img src=https://avatars.githubusercontent.com/u/71868045?v=4 width=420/></td>
