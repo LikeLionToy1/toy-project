@@ -36,33 +36,54 @@ const Body = () => {
         <div className="profile">
           <img style={{ width: "43px", height: "43px" }} src={artist} />
         </div>
-        <h3>MinHyeok</h3>
-        <img
-          style={{ width: "15px", height: "15px", marginLeft: "10px" }}
-          src={check}
-        />
+        <div>
+          <div style={{ display: "flex", alignItems: "baseline" }}>
+            <h3>MinHyeok</h3>
+            <img
+              style={{ width: "15px", height: "15px", marginLeft: "10px" }}
+              src={check}
+            />
+          </div>
+          <div>
+            <h4 style={{ marginTop: "0px" }}>멋사 파이팅팅팅팅팅팅팅팅팅</h4>
+          </div>
+        </div>
       </div>
 
       <div className="box">
         <div className="profile">
           <img style={{ width: "43px", height: "43px" }} src={artist} />
         </div>
-        <h3>MinHyeok</h3>
-        <img
-          style={{ width: "15px", height: "15px", marginLeft: "10px" }}
-          src={check}
-        />
+        <div>
+          <div style={{ display: "flex", alignItems: "baseline" }}>
+            <h3>MinHyeok</h3>
+            <img
+              style={{ width: "15px", height: "15px", marginLeft: "10px" }}
+              src={check}
+            />
+          </div>
+          <div>
+            <h4 style={{ marginTop: "0px" }}>멋사 파이팅팅팅팅팅팅팅팅팅</h4>
+          </div>
+        </div>
       </div>
 
       <div className="box">
         <div className="profile">
           <img style={{ width: "43px", height: "43px" }} src={artist} />
         </div>
-        <h3>MinHyeok</h3>
-        <img
-          style={{ width: "15px", height: "15px", marginLeft: "10px" }}
-          src={check}
-        />
+        <div>
+          <div style={{ display: "flex", alignItems: "baseline" }}>
+            <h3>MinHyeok</h3>
+            <img
+              style={{ width: "15px", height: "15px", marginLeft: "10px" }}
+              src={check}
+            />
+          </div>
+          <div>
+            <h4 style={{ marginTop: "0px" }}>멋사 파이팅팅팅팅팅팅팅팅팅</h4>
+          </div>
+        </div>
       </div>
 
       <div>
