@@ -13,7 +13,9 @@ const Footer = () => {
           &nbsp;&nbsp;|&nbsp;&nbsp; Privacy policy &nbsp;&nbsp;|&nbsp;&nbsp;
           Cookie policy &nbsp;&nbsp;|&nbsp;&nbsp; Cookie Settings
         </p>
-        <p>© LIKELION COMPANY Inc. &nbsp;&nbsp; Ver 2.9.6</p>
+        <p style={{ color: "gray" }}>
+          © LIKELION COMPANY Inc. &nbsp;&nbsp; Ver 2.9.6
+        </p>
       </div>
     </>
   );
