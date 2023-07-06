@@ -1,8 +1,19 @@
-#main-footer {
-  background: #343a40;
-  color: #fff;
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../font/AppleSDGothicNeoR.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-weight: "normal";
+}
+
+.main-footer {
+  font-family: "AppleSDGothicNeo";
+  background: #ffffff;
+  color: #000000;
   height: 140px;
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  border-top: 2px solid #efeff3;
 }
