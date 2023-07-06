@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoH.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoEB.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoB.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-weight: "bold";
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoSB.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-weight: "semi-bold";
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoSB.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoR.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-weight: "normal";
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoL.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoUL.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  src: url(../src/font/AppleSDGothicNeoT.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 200;
+}
