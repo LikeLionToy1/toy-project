@@ -1,13 +1,13 @@
 import React from "react";
 
-import styles from "../style/Body.css";
+import styles from "../style/Section1.css";
 import image from "../assets/feed-back.svg";
 import left from "../assets/left-arrow.png";
 import right from "../assets/right-arrow.png";
 import check from "../assets/check.png";
 import artist from "../assets/artist_profile.png";
 
-const Body = () => {
+const Section1 = () => {
   return (
     // 이미지 넣기
     // <>
@@ -93,4 +93,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default Section1;
