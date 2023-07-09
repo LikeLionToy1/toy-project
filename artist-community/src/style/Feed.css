@@ -26,7 +26,7 @@ input {
 
   padding-left: 70px;
   margin-top: 40px;
-  margin-left: 125px;
+  margin-left: 145px;
 }
 
 input:focus {
@@ -70,7 +70,7 @@ input:focus {
 
 .user_profile {
   position: absolute;
-  left: 10px;
+  left: 30px;
   top: 8%;
 }
 
