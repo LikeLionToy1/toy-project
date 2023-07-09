@@ -32,8 +32,30 @@ const Section3 = () => {
           <h5>&gt;</h5>
         </div>
       </div>
-      <div>
+      <div style={{ position: "relative" }}>
         <img style={{ width: "380px", marginTop: "70px" }} src={minhyeok} />
+        <div
+          style={{
+            position: "absolute",
+            top: "32%",
+            left: "50%",
+            transform: "translate( -50%, -50% )",
+            color: "white",
+          }}
+        >
+          <h1
+            style={{
+              fontSize: "50px",
+              textAlign: "center",
+              marginBottom: "0px",
+            }}
+          >
+            MinHyeok
+          </h1>
+          <h1 style={{ fontSize: "20px", textAlign: "center" }}>
+            66,332 members
+          </h1>
+        </div>
       </div>
     </div>
   );
