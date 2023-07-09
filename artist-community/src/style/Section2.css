@@ -7,10 +7,6 @@ input {
   width: 700px;
   height: 60px;
   border-radius: 33px;
-  border-top-color: darkgray;
-  border-bottom-color: darkgray;
-  border-left-color: darkgray;
-  border-right-color: darkgray;
   padding-left: 20px;
 }
 
