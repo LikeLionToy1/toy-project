@@ -1,6 +1,9 @@
 .container {
   display: grid;
   height: 660px;
+  /* 2560 X 900
+  grid-template-columns: 56% 44%; */
+  /* 1440 x 900 */
   grid-template-columns: 60% 40%;
 }
 
