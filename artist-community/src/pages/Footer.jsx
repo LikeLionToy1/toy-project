@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
       <div class="main-footer">
-        <p>
+        <p style={{ marginBottom: "0px" }}>
           Terms of use &nbsp;&nbsp;|&nbsp;&nbsp; Service operation policy
           &nbsp;&nbsp;|&nbsp;&nbsp; Premium service terms of use
           &nbsp;&nbsp;|&nbsp;&nbsp; Privacy policy &nbsp;&nbsp;|&nbsp;&nbsp;
