@@ -1,5 +1,7 @@
 import React from "react";
 
+import Artistfeed from "./Artistfeed";
+
 import styles from "../style/Section1.css";
 import image from "../assets/feed-back.svg";
 import left from "../assets/left-arrow.png";
@@ -8,14 +10,22 @@ import check from "../assets/check.png";
 import artist from "../assets/artist_profile.png";
 
 const Section1 = () => {
-  return (
-    // 이미지 넣기
-    // <>
-    //   <div>
-    //     <img src={image} />
-    //   </div>
-    // </>
+  const users = [
+    {
+      id: 1,
+      text: "멋사 파이팅",
+    },
+    {
+      id: 2,
+      text: "멋사 파이팅팅",
+    },
+    {
+      id: 3,
+      text: "멋사 파이팅팅팅",
+    },
+  ];
 
+  return (
     <div
       style={{
         backgroundImage: `url(${image})`,
@@ -32,59 +42,9 @@ const Section1 = () => {
         <img style={{ marginRight: "30px" }} src={left} />
       </div>
 
-      <div className="box">
-        <div className="profile">
-          <img style={{ width: "43px", height: "43px" }} src={artist} />
-        </div>
-        <div>
-          <div style={{ display: "flex", alignItems: "baseline" }}>
-            <h3>MinHyeok</h3>
-            <img
-              style={{ width: "15px", height: "15px", marginLeft: "10px" }}
-              src={check}
-            />
-          </div>
-          <div>
-            <h4 style={{ marginTop: "0px" }}>멋사 파이팅팅팅팅팅팅팅팅팅</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="box">
-        <div className="profile">
-          <img style={{ width: "43px", height: "43px" }} src={artist} />
-        </div>
-        <div>
-          <div style={{ display: "flex", alignItems: "baseline" }}>
-            <h3>MinHyeok</h3>
-            <img
-              style={{ width: "15px", height: "15px", marginLeft: "10px" }}
-              src={check}
-            />
-          </div>
-          <div>
-            <h4 style={{ marginTop: "0px" }}>멋사 파이팅팅팅팅팅팅팅팅팅</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="box">
-        <div className="profile">
-          <img style={{ width: "43px", height: "43px" }} src={artist} />
-        </div>
-        <div>
-          <div style={{ display: "flex", alignItems: "baseline" }}>
-            <h3>MinHyeok</h3>
-            <img
-              style={{ width: "15px", height: "15px", marginLeft: "10px" }}
-              src={check}
-            />
-          </div>
-          <div>
-            <h4 style={{ marginTop: "0px" }}>멋사 파이팅팅팅팅팅팅팅팅팅</h4>
-          </div>
-        </div>
-      </div>
+      {users.map((item) => {
+        return <Artistfeed user={item.text} />;
+      })}
 
       <div>
         <img style={{ marginLeft: "30px" }} src={right} />
