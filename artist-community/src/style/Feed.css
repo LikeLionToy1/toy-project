@@ -1,0 +1,107 @@
+.container {
+  display: grid;
+  height: 660px;
+  /* 2560 X 900
+  grid-template-columns: 56% 44%; */
+  /* 1440 x 900 */
+  grid-template-columns: 60% 40%;
+}
+
+.section {
+  display: flex;
+}
+
+input {
+  width: 690px;
+  height: 60px;
+  right: 30px;
+  border-radius: 33px;
+  /* 이렇게 하면 위, 왼쪽 테두리 색상만 채도가 낮아짐 (안 바뀜) -> 도대체 왜???????????????*/
+
+  /* border-top-color: darkgray;
+  border-bottom-color: darkgray;
+  border-left-color: darkgray;
+  border-right-color: darkgray; */
+
+  /* 근데 이렇게 하면 잘 됨 -> 왜????????????????? */
+  border: solid 1px darkgray;
+
+  box-shadow: 3px 3px 3px rgb(210, 210, 210);
+  padding-left: 70px;
+  margin-top: 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.box2 {
+  width: 380px;
+  height: 144px;
+  background-color: #f4f4f8;
+  border-radius: 15px;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.box3 {
+  width: 320px;
+  height: 33px;
+  background-color: #f4f4f8;
+  border-style: solid;
+  border-radius: 7px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-color: #cdcdcd;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.box3 h5 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user_profile {
+  position: absolute;
+  right: 712px;
+  top: 8%;
+}
+
+.camera_tray {
+  position: absolute;
+  right: 25px;
+  top: 8.5%;
+}
+
+.user_box {
+  width: 742px;
+  height: 130px;
+  background-color: white;
+  border-bottom: solid 1px #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 155px;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.user_box2 {
+  width: 160px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}

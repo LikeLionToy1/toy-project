@@ -1,0 +1,27 @@
+.profile {
+  /* 자식(위에 올라갈 애)의 포지션을 이렇게 설정 */
+  position: absolute;
+  top: -20px;
+  left: 20px;
+}
+
+.box {
+  width: 355px;
+  height: 100px;
+  background-color: white;
+  border-radius: 15px;
+  margin-right: 18px;
+  margin-left: 18px;
+  box-shadow: 3px 3px 3px gray;
+  padding-top: 22px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: baseline;
+  /* 부모(밑에 깔릴 애)의 포지션을 이렇게 설정 */
+  position: relative;
+}
+
+.container {
+  display: flex;
+}
