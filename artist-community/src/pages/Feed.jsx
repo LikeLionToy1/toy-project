@@ -16,12 +16,12 @@ function Feed() {
     <>
       {/* <Header></Header> */}
       {/* <Navigator></Navigator> */}
-      <Section1></Section1>
+      <Section1 />
       <div className="container">
-        <Section2 className="section"></Section2>
-        <Section3 className="section"></Section3>
+        <Section2 className="section" />
+        <Section3 className="section" />
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }
