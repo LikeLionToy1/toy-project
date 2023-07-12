@@ -13,8 +13,8 @@ const Box2 = () => {
             borderRadius: '15px',
             width: '380px',
             height: '155px',
-            display: 'inline-block',
-            marginTop: "45px"
+            // display: 'inline-block',
+            // marginTop: "45px"
           }}>
             <div
           style={{
