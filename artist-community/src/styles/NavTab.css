@@ -1,0 +1,49 @@
+.nav-container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(93deg, #F39926 0%, rgba(13, 10, 10, 0.80) 100%);
+  margin-bottom: 0px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 10;
+  margin: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+
+  
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 50px;
+  color: gray;
+  text-decoration: none; /* 밑줄없어짐 */
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  font-family: Apple SD Gothic Neo;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 14px;
+}
+
+.selected {
+  color: white;
+  display: inline-block;
+  padding: 50px;
+  text-decoration: none; /* 밑줄없어짐 */
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  font-family: Apple SD Gothic Neo;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 14px;
+}

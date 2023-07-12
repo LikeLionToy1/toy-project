@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 80px;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo img {
+    height: 80%;
+  }
+  
+  .artist {
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Apple SD Gothic Neo';
+    font-style: bold;
+    font-weight: 900;
+    padding-top: 7px;
+  }
+  
+  .navigation ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation li {
+    cursor: pointer;
+  }
+  
+  .navigation img {
+    height: 80%;
+  }
+  
