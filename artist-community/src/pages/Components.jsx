@@ -11,7 +11,7 @@ const Components = ({date,month,texts,time,image}) => {
     <div className='container1'>
     <div className="container">
       <div className="section">
-        <div className="profile">
+        <div className="profile1">
           <img style={{ width: '50px', height: '50px' }} src={artist} alt="Artist Profile" />
         </div>
         <div className="text">

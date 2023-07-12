@@ -7,13 +7,13 @@ import check from '../files/check.png';
 
 import '../styles/Box1.css';
 
-
+///이거 아님///->Components
 function Post(post){
     return(
         <>
         <div className="container">
           <div className="section">
-            <div className="profile">
+            <div className="profile1">
               <img
                 style={{ width: "50px", height: "50px" }}
                 src={artist}
