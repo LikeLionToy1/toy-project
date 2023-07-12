@@ -23,7 +23,7 @@
 .nav-link {
   display: inline-block;
   padding: 50px;
-  color: gray;
+  color: rgb(185, 183, 183);
   text-decoration: none; /* 밑줄없어짐 */
   cursor: pointer;
   text-align: center;
