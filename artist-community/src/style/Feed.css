@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  height: 660px;
+  height: 720px;
   /* 2560 X 900
   grid-template-columns: 56% 44%; */
   /* 1440 x 900 */
@@ -28,7 +28,7 @@ input {
 
   box-shadow: 3px 3px 3px rgb(210, 210, 210);
   padding-left: 70px;
-  margin-top: 40px;
+  margin-top: 44px;
 }
 
 input:focus {
@@ -37,8 +37,8 @@ input:focus {
 
 .box2 {
   width: 380px;
-  height: 100vh;
-  /* background-color: #f4f4f8; */
+  height: 140px;
+  background-color: #f4f4f8;
   border-radius: 15px;
   margin-left: 80px;
   margin-top: 40px;
@@ -105,6 +105,7 @@ input:focus {
   display: grid;
   grid-template-columns: 30% 70%;
 }
+
 .main-container {
   min-height: 100vh;
   display: flex;
