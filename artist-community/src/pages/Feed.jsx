@@ -1,8 +1,10 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-import App from "../App";
 import Header from "./Header";
-import Navigator from "./Navigator";
+import NavTab from "./NavTab";
+
+import Artist from "./Tab/Artist";
 
 import Footer from "./Footer";
 import Section1 from "./Section1";
@@ -11,19 +13,33 @@ import Section3 from "./Section3";
 
 import "../style/Feed.css";
 
-function Feed() {
+function FeedContent() {
   return (
     <>
-      {/* <Header></Header> */}
-      {/* <Navigator></Navigator> */}
       <Section1 />
       <div className="container">
         <Section2 className="section" />
         <Section3 className="section" />
       </div>
-      <Footer />
     </>
   );
 }
+
+function Feed() {
+  return (
+    <>
+      <Header></Header>
+      <NavTab />
+      <div className="main-container">
+        <Routes>
+          <Route path="/" element={<FeedContent />} />
+          <Route path="/artist" element={<Artist />} />
+        </Routes>
+        <Footer />
+      </div>
+    </>
+  );
+}
+
 
 export default Feed;

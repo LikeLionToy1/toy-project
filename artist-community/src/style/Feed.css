@@ -105,3 +105,9 @@ input:focus {
   display: grid;
   grid-template-columns: 30% 70%;
 }
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+

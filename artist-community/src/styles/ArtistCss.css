@@ -1,0 +1,11 @@
+.Bigcontainer {
+    display: flex;
+    height: 660px;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+
+  }
+  
+  .Box {
+    display: flex;
+  }
