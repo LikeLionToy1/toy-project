@@ -1,0 +1,115 @@
+.container1{
+    display: flex;
+}
+
+.container {
+    display: flex;
+    margin-top: 45px;
+  }
+
+  .post {
+    /* display: grid; */
+    margin-top: 45px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+  
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  h3 {
+    padding-top: 0px;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+
+  h6 {
+    color: rgba(68, 68, 68, 0.50);
+    text-align: left;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+  }
+  
+  .Date {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .Month {
+    color: rgba(50, 45, 45, 0.80);
+    text-align: center;
+    font-size: 13px;
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 14px;
+  }
+  
+  .grayBox {
+    width: 640px;
+    height: 134px;
+    background-color: #E9E9EB;;
+    border-radius: 15px;
+    margin-right: 18px;
+    margin-left: 18px;
+    padding-top: 22px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    /* 부모(밑에 깔릴 애)의 포지션을 이렇게 설정 */
+    position: relative;
+    border-radius: 18px 18px 0px 0px;
+    justify-content: space-between;
+    /* 
+    margin: 0 auto; /* 수정 */
+    /* display: flex;
+    padding: 6px 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+     */
+  }
+  
+  .tail {
+    position: absolute;
+    top: -4px;
+    left: -3px;
+  }
+
+  /* .PostContents{
+
+} */
+  
+
+  .PostBoxText {
+    float: left;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
