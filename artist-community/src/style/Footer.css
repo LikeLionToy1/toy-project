@@ -7,6 +7,8 @@
 }
 
 .main-footer {
+  /* position : relative; */
+  /* transform : translateY(-100%); */
   font-family: "AppleSDGothicNeo";
   background: #ffffff;
   color: #000000;
@@ -16,5 +18,4 @@
   flex-direction: column;
   justify-content: center;
   border-top: 2px solid #efeff3;
-  
 }

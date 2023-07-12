@@ -37,8 +37,8 @@ input:focus {
 
 .box2 {
   width: 380px;
-  height: 144px;
-  background-color: #f4f4f8;
+  height: 100vh;
+  /* background-color: #f4f4f8; */
   border-radius: 15px;
   margin-left: 80px;
   margin-top: 40px;
@@ -111,3 +111,8 @@ input:focus {
   flex-direction: column;
 }
 
+#wrapper {
+  height: auto;
+  min-height: 100%;
+  /* padding-bottom: 140px; */
+}

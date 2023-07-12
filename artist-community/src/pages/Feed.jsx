@@ -27,7 +27,7 @@ function FeedContent() {
 
 function Feed() {
   return (
-    <>
+    <div id="wrapper">
       <Header></Header>
       <NavTab />
       <div className="main-container">
@@ -35,11 +35,10 @@ function Feed() {
           <Route path="/" element={<FeedContent />} />
           <Route path="/artist" element={<Artist />} />
         </Routes>
-        <Footer />
       </div>
-    </>
+      <Footer />
+    </div>
   );
 }
-
 
 export default Feed;
